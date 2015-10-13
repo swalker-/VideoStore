@@ -1,5 +1,0 @@
-C:\Users\Stephen Walker\Documents\Projects\VideoStore\VideoStore\bin\Debug\VideoStore.dll
-C:\Users\Stephen Walker\Documents\Projects\VideoStore\VideoStore\bin\Debug\VideoStore.pdb
-C:\Users\Stephen Walker\Documents\Projects\VideoStore\VideoStore\obj\Debug\VideoStore.csprojResolveAssemblyReference.cache
-C:\Users\Stephen Walker\Documents\Projects\VideoStore\VideoStore\obj\Debug\VideoStore.dll
-C:\Users\Stephen Walker\Documents\Projects\VideoStore\VideoStore\obj\Debug\VideoStore.pdb
