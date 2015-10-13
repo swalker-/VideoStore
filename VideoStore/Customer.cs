@@ -23,23 +23,23 @@ namespace VideoStore
             decimal totalAmount = 0;
             var frequentRenterPoints = 0;
             var result = "Rental Record for " + Name + "\n";
-            foreach (var rental in _rentals.Cast<Rental>())
+            foreach (var each in _rentals.Cast<Rental>())
             {
                 decimal thisAmount = 0;
-                switch (rental.Movie.PriceCode)
+                switch (each.Movie.PriceCode)
                 {
                     case Movie.Regular:
                         thisAmount += 2;
-                        if (rental.DaysRented > 2)
-                            thisAmount += (rental.DaysRented - 2)*1.5m;
+                        if (each.DaysRented > 2)
+                            thisAmount += (each.DaysRented - 2)*1.5m;
                         break;
                     case Movie.NewRelease:
-                        thisAmount += rental.DaysRented*3;
+                        thisAmount += each.DaysRented*3;
                         break;
                     case Movie.Childrens:
                         thisAmount += 1.5m;
-                        if (rental.DaysRented > 3)
-                            thisAmount += (rental.DaysRented - 3)*1.5m;
+                        if (each.DaysRented > 3)
+                            thisAmount += (each.DaysRented - 3)*1.5m;
                         break;
                     default:
                         break;
@@ -48,12 +48,12 @@ namespace VideoStore
                 // add frequent renter points
                 frequentRenterPoints++;
                 // add bonus for a two day new release rental
-                if ((rental.Movie.PriceCode == Movie.NewRelease) &&
-                    rental.DaysRented > 1)
+                if ((each.Movie.PriceCode == Movie.NewRelease) &&
+                    each.DaysRented > 1)
                     frequentRenterPoints++;
 
                 // show figures for this rental
-                result += $"\t{rental.Movie.Title}\t"+ $"{thisAmount:F1}\n";
+                result += $"\t{each.Movie.Title}\t"+ $"{thisAmount:F1}\n";
                 totalAmount += thisAmount;
             }
 
