@@ -1,0 +1,13 @@
+C:\Users\Stephen Walker\Documents\Projects\VideoStore\VideoStoreSpec\bin\Debug\VideoStoreSpec.dll
+C:\Users\Stephen Walker\Documents\Projects\VideoStore\VideoStoreSpec\bin\Debug\VideoStoreSpec.pdb
+C:\Users\Stephen Walker\Documents\Projects\VideoStore\VideoStoreSpec\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Stephen Walker\Documents\Projects\VideoStore\VideoStoreSpec\bin\Debug\NBehave.Spec.NUnit.dll
+C:\Users\Stephen Walker\Documents\Projects\VideoStore\VideoStoreSpec\bin\Debug\nunit.framework.dll
+C:\Users\Stephen Walker\Documents\Projects\VideoStore\VideoStoreSpec\bin\Debug\Rhino.Mocks.dll
+C:\Users\Stephen Walker\Documents\Projects\VideoStore\VideoStoreSpec\bin\Debug\nunit.framework.xml
+C:\Users\Stephen Walker\Documents\Projects\VideoStore\VideoStoreSpec\bin\Debug\Rhino.Mocks.xml
+C:\Users\Stephen Walker\Documents\Projects\VideoStore\VideoStoreSpec\obj\Debug\VideoStoreSpec.csprojResolveAssemblyReference.cache
+C:\Users\Stephen Walker\Documents\Projects\VideoStore\VideoStoreSpec\obj\Debug\VideoStoreSpec.dll
+C:\Users\Stephen Walker\Documents\Projects\VideoStore\VideoStoreSpec\obj\Debug\VideoStoreSpec.pdb
+C:\Users\Stephen Walker\Documents\Projects\VideoStore\VideoStoreSpec\bin\Debug\VideoStore.dll
+C:\Users\Stephen Walker\Documents\Projects\VideoStore\VideoStoreSpec\bin\Debug\VideoStore.pdb
